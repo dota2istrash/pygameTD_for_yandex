@@ -17,7 +17,7 @@ def main_menu(img):
 	font = pg.font.Font(None, 45)
 	name_font.set_bold(True)
 	font.set_bold(True)
-	game_name = outline_text(name_font, "FOXY TOWERS", COLOURS["white"], COLOURS["black"])
+	game_name = outline_text(name_font, "Super Tower Defense", COLOURS["white"], COLOURS["black"])
 	g_rect = game_name.get_rect(center = screen_rect.midtop + Vec(0, screen_height//4))
 	instruction = outline_text(font, "Press any button to PLAY", COLOURS["green"], COLOURS["black"])
 	i_rect = instruction.get_rect(center = screen_rect.center)
